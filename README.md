@@ -17,7 +17,7 @@ Jet Browser: Be like a jet on the sky of the web, fast and secure.
     pkgs.webkitgtk.dev
     pkgs.pkg-config
     pkgs.gcc
-    gtk
+    pkgs.gtk
     ```
 
 for Windows, install it manually.
