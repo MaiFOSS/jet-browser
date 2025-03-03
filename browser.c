@@ -40,7 +40,8 @@ int main(int argc, char *argv[]) {
     g_signal_connect(window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
 
     // Load default webpage
-    webkit_web_view_load_uri(WEBKIT_WEB_VIEW(webView), "https://www.google.com");
+    webkit_web_view_load_uri(WEBKIT_WEB_VIEW(webView), "https://search.brave.com/");
+    // Your browser has been Keith-ified (insert anime gif here [])
 
     // Set up window
     gtk_container_add(GTK_CONTAINER(window), vbox);
