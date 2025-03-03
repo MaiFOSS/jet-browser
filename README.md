@@ -2,23 +2,31 @@
 Jet Browser: Be like a jet on the sky of the web, fast and secure.
 
 
-## How to test
+## How to run
 
 
-1. make sure you have Web Kit GTK:
+1. Ensure you have WebKitGTK installed::
 
-```
-sudo apt install libwebkit2gtk-4.0-dev
-```
+- Debian based distributions:
+    ```
+    sudo apt install libwebkit2gtk-4.0-dev
+    ```
+- Nix package manager:
+    You can add these three packages to your ```etc/nixos/configuration.nix``` file or install them directly.
+    ```
+    pkgs.webkitgtk.dev
+    pkgs.pkg-config
+    pkgs.gcc
+    ```
 
 for Windows, install it manually.
 
 2. run the following commands:
 
 ```
-gcc browser.c $(pkg-config --cflags --libs webkit2gtk-4.0) -o browser
+gcc src/browser.c $(pkg-config --cflags --libs webkit2gtk-4.0) -o browser
 ```
-then
+Then, execute the compiled browser:
 ```
 ./browser
 ```
