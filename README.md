@@ -1,5 +1,6 @@
-# jet-browser
+# jet-browser [![GitHub stars](https://img.shields.io/github/stars/MaiFOSS/jet-browser?style=social)](https://github.com/MaiFOSS/jet-browser)
 Jet Browser: Be like a jet on the sky of the web, fast and secure.
+
 
 ## How to test
 
