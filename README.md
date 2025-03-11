@@ -3,5 +3,4 @@ Jet Browser: Be like a jet on the sky of the web, fast and secure.
 
 ## TODO
 
-- [ ] Rewrite the project from C to Java and from WebKit GTK to JavaFX
-- [ ] Build the engine from scratch
+- [ ] Create the web engine ([Check the source code here)](src/jet-engine)
